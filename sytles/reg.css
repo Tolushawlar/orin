@@ -1,0 +1,83 @@
+*{
+    background-color: rgb(246, 239, 239);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    
+}
+
+.register{
+    background-color: gray;
+    width: 80vw;
+    justify-content: center;
+    padding: 20px;
+}
+
+.into {
+    background-color: gray;
+}
+.register form input{
+    width: 50vw;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0.9rem;
+    padding: 5px;
+    border: solid black 0.3px;
+}
+
+.btn button{
+    width: 250px;
+    padding: 5px;
+}
+
+.btn{
+    width: 10vw;
+    background-color: gray;
+    padding-top: 0.9rem;
+}
+
+.register form{
+    background-color: gray;
+    width: 80vw;
+    padding-bottom: 20px;
+}
+
+.login{
+    width: 50vw;
+    background-color: rgb(68, 64, 59);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.login form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    width: 50vw;
+    background-color: rgb(223, 212, 212);
+    padding: 10px;
+}
+
+.login form input{
+    margin-top: 0.9rem;
+    width: 40vw;
+    padding: 5px;
+}
+
+.log{
+    background-color: rgb(223, 212, 212);
+}
+
+.log button{
+    margin-top: 0.9rem;
+    width: 200px;
+    padding: 5px;
+}
